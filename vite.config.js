@@ -12,6 +12,9 @@ export default defineConfig({
       open: true, // Open in browser after build
     }),
   ],
+  server: {
+    port: 3000,
+  },
   optimizeDeps: {
     include: ["lottie-web"],
     force: true,
